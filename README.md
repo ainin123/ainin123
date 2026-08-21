@@ -1,172 +1,318 @@
 <div align="center">
 
-```
- █████╗ ███╗   ██╗██╗ ██████╗  █████╗      █████╗ ██╗   ██╗██╗   ██╗██████╗
-██╔══██╗████╗  ██║██║██╔═══██╗██╔══██╗    ██╔══██╗╚██╗ ██╔╝██║   ██║██╔══██╗
-███████║██╔██╗ ██║██║██║   ██║███████║    ███████║ ╚████╔╝ ██║   ██║██████╔╝
-██╔══██║██║╚██╗██║██║██║▄▄ ██║██╔══██║    ██╔══██║  ╚██╔╝  ██║   ██║██╔══██╗
-██║  ██║██║ ╚████║██║╚██████╔╝██║  ██║    ██║  ██║   ██║   ╚██████╔╝██████╔╝
-╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝ ╚══▀▀═╝ ╚═╝  ╚═╝    ╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═════╝
-```
+# Aniqa Ayub
 
-### `Cybersecurity Researcher · SIEM Engineer · SOC Analyst · AI Security`
+**Cybersecurity R&D  ·  SIEM Engineer  ·  Threat Detection Engineer  ·  AI-driven Cybersecurity**
 
-**`STATUS:`** `▓▓▓▓▓▓▓▓▓▓ MONITORING GLOBAL THREAT LANDSCAPE`
+*Designing, engineering, and researching intelligent security systems at the intersection of SIEM, threat intelligence, AI/ML, and security automation.*
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-00FFFF?style=for-the-badge&logo=vercel&logoColor=black&labelColor=0a0e27)](https://cybersecurity-portfolio-blue.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0e27)](https://linkedin.com/in/aniqa-ayub)
-[![Email](https://img.shields.io/badge/Email-00FF41?style=for-the-badge&logo=gmail&logoColor=black&labelColor=0a0e27)](mailto:aniqaayub0fficial@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-ainin123-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0e27)](https://github.com/ainin123)
+[![Portfolio](https://img.shields.io/badge/Portfolio-cybersecurity--portfolio-1F6FEB?style=flat-square&logo=vercel&logoColor=white&labelColor=0D1117)](https://cybersecurity-portfolio-blue.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aniqa%20Ayub-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=0D1117)](https://www.linkedin.com/in/aniqa-ayub-cybersecurity-researcher/)
+[![GitHub](https://img.shields.io/badge/GitHub-ainin123-30363D?style=flat-square&logo=github&logoColor=white&labelColor=0D1117)](https://github.com/ainin123)
+[![Email](https://img.shields.io/badge/Email-aniqaayub0fficial-4B4B4B?style=flat-square&logo=protonmail&logoColor=white&labelColor=0D1117)](mailto:aniqaayub0fficial@gmail.com)
 
 </div>
 
 ---
 
-## `aniqa@nccs:~$ whoami`
+## `$ whoami`
 
-```bash
-> Security researcher and engineer specialising in enterprise threat detection,
-> behavioural analytics, cloud security, and AI-driven defence.
-> Currently building AI-augmented SIEM, DLP, and threat-intel automation
-> for critical national infrastructure.
-```
-
-- 🔬 **Currently:** Research Associate — SIEM Engineering & Threat Detection @ **NCCS (NASTP)**
-- 🧠 **Building:** Transformer-based PII detection · Cloud-native SIEM · Threat-intel automation
-- 📚 **Learning:** CEH · CompTIA Security+ · ISC2 CC
-- 🎓 **MS Cybersecurity** — Air University (2025), Specialization: AI-driven Cybersecurity
-- 💬 **Ask me about:** Wazuh, MITRE ATT&CK, threat hunting, transformer models for security
-- 🏆 **Presidential Award** recipient — PM Kamyaab Jawan Cybersecurity Program (Top of Batch)
-
----
-
-## `aniqa@nccs:~$ cat tech_stack.txt`
-
-### `> SIEM & Log Management`
-![Wazuh](https://img.shields.io/badge/Wazuh-005571?style=flat-square&logo=elastic&logoColor=white)
-![Elastic](https://img.shields.io/badge/ElasticStack-005571?style=flat-square&logo=elastic&logoColor=white)
-![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white)
-![Snort](https://img.shields.io/badge/Snort_IDS%2FIPS-BF2026?style=flat-square&logoColor=white)
-![Sysmon](https://img.shields.io/badge/Sysmon-0078D4?style=flat-square&logoColor=white)
-![Packetbeat](https://img.shields.io/badge/Packetbeat-005571?style=flat-square&logo=elastic&logoColor=white)
-![SOAR](https://img.shields.io/badge/SOAR-00FFFF?style=flat-square&logoColor=black)
-
-### `> Penetration Testing & VAPT`
-![NMAP](https://img.shields.io/badge/NMAP-4682B4?style=flat-square&logoColor=white)
-![BurpSuite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
-![Nessus](https://img.shields.io/badge/Nessus-00A88F?style=flat-square&logoColor=white)
-![OpenVAS](https://img.shields.io/badge/OpenVAS-000000?style=flat-square&logoColor=white)
-![Nikto](https://img.shields.io/badge/Nikto-000000?style=flat-square&logoColor=white)
-![Acunetix](https://img.shields.io/badge/Acunetix-1E88E5?style=flat-square&logoColor=white)
-![Hydra](https://img.shields.io/badge/Hydra-DC143C?style=flat-square&logoColor=white)
-
-### `> Threat Intelligence & Network Forensics`
-![MISP](https://img.shields.io/badge/MISP-1E5AA0?style=flat-square&logoColor=white)
-![Maltego](https://img.shields.io/badge/Maltego-00A6A6?style=flat-square&logoColor=white)
-![Shodan](https://img.shields.io/badge/Shodan-EE1B24?style=flat-square&logo=shodan&logoColor=white)
-![VirusTotal](https://img.shields.io/badge/VirusTotal-394EFF?style=flat-square&logo=virustotal&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![tcpdump](https://img.shields.io/badge/tcpdump-000000?style=flat-square&logoColor=white)
-
-### `> AI / ML for Security`
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Transformers](https://img.shields.io/badge/🤗_Transformers-FFD21E?style=flat-square&logoColor=black)
-![BERT](https://img.shields.io/badge/BERT-004B87?style=flat-square&logoColor=white)
-![RoBERTa](https://img.shields.io/badge/RoBERTa-1B4F72?style=flat-square&logoColor=white)
-![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=flat-square&logo=spacy&logoColor=white)
-![SHAP](https://img.shields.io/badge/SHAP_/_XAI-00B894?style=flat-square&logoColor=white)
-
-### `> Programming & Infrastructure`
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-
-### `> Frameworks & Standards`
-![MITRE](https://img.shields.io/badge/MITRE_ATT%26CK-BE1E2D?style=flat-square&logoColor=white)
-![NIST](https://img.shields.io/badge/NIST_CSF-004B87?style=flat-square&logoColor=white)
-![ISO27001](https://img.shields.io/badge/ISO_27001%2F27002-1E88E5?style=flat-square&logoColor=white)
-![CIS](https://img.shields.io/badge/CIS_Controls-2E7D32?style=flat-square&logoColor=white)
-![OWASP](https://img.shields.io/badge/OWASP-000000?style=flat-square&logo=owasp&logoColor=white)
-
----
-
-## `aniqa@nccs:~$ ls -la featured_projects/`
-
-### 🛡️ Enterprise Wazuh SIEM Deployment — *Critical Infrastructure*
-Full-scale Wazuh SIEM for national-scale infrastructure. Integrated ElasticStack, Snort, Sysmon, and Packetbeat across **50+ endpoints**. Developed **150+ custom detection rules & decoders**, multi-tenant RBAC governance, and SOAR-driven automated response workflows.
-`Wazuh` · `ELK` · `Snort` · `Sysmon` · `Python` · `SOAR`
-
-### 🤖 AI-Powered Data Loss Prevention *(Active)*
-Transformer-based sensitive-data classification & PII detection for SIEM log streams. Fine-tuned BERT + RoBERTa ensemble across JSON / syslog / CEF formats. **`▓▓▓▓▓▓▓░░░ 98% accuracy · 71% ↓ false negatives`**
-`BERT` · `RoBERTa` · `PyTorch` · `FastAPI`
-
-### ☁️ Cloud-Native SIEM Infrastructure *(In Progress)*
-Containerized Wazuh on Kubernetes with auto-scaling detection workloads, Terraform IaC, and full observability stack. Target: **50K events/sec · 99.9% uptime · 12 nodes**.
-`Kubernetes` · `Docker` · `Terraform` · `Wazuh`
-
-### 🎯 Threat Intelligence Automation Pipeline *(Deployed)*
-Automated IOC enrichment & correlation across **8 intel feeds**. Processed **10K+ IOCs** with priority scoring — **83% correlation improvement**, response time cut from hours to minutes.
-`MISP` · `VirusTotal` · `Python`
-
-### 🔍 End-to-End VAPT Engagements
-Reconnaissance → exploitation → privilege escalation → post-exploitation → CVSS-rated reporting across network, web-app, and cloud environments.
-`NMAP` · `Burp Suite` · `Nessus` · `OpenVAS` · `Nikto`
-
----
-
-## `aniqa@nccs:~$ cat research.bib`
-
-```
-📄 Ayub, A. (2026). A Transformers-based Ensemble Framework for
-                   Context-Aware PII Detection in Modern SIEM Systems.
-                   [SUBMITTED]
-
-📄 Ayub, A. (2026). Anti-Religion Hate Speech Detection Framework using
-                   Machine Learning and Explainable AI (SHAP).
-                   [SUBMITTED]
-
-📄 Ayub, A. (2026). Enhancement of SIEM Using AI-based Correlation.
-                   [IN PREPARATION]
+```text
+NAME       : Aniqa Ayub
+ROLE       : Cybersecurity R&D  /  SIEM Engineer  /  Threat Detection Engineer
+SPECIALTY  : Threat Detection  &  Security Engineering
+RESEARCH   : AI-driven Cybersecurity
+FOCUS      : SIEM  |  Threat Intelligence  |  DLP  |  AI / ML  |  Security Automation
+LOCATION   : Islamabad, Pakistan
+STATUS     : Building & Researching
 ```
 
 ---
 
-## `aniqa@nccs:~$ certifications --list`
+## About
 
-| Status | Certification | Issuer |
-|--------|---------------|--------|
-| ✅ | **PM Kamyaab Jawan Cybersecurity (Grade A+)** | NAVTTC |
-| ✅ | **Ethical Hacking Essentials (EHE)** | EC-Council |
-| 🟡 | Certified in Cybersecurity (CC) | ISC2 |
-| 🟡 | Certified Ethical Hacker (CEH) | EC-Council |
-| 🟡 | CompTIA Security+ | CompTIA |
+I am a Research Associate at the **National Centre for Cyber Security (NCCS), NASTP**, where
+I design and deploy enterprise-scale SIEM and threat-detection systems for critical
+infrastructure. My work spans **Wazuh-based SIEM engineering, UEBA, SOAR-driven response,
+threat intelligence integration, DLP / PII detection, and threat hunting** aligned to
+MITRE ATT&CK — augmented by transformer-based machine learning for context-aware detection.
+
+Alongside engineering, I conduct research on **AI-driven cybersecurity**, including
+transformer ensembles for PII detection, explainable AI for content-safety, and AI-based
+SIEM correlation. I hold an **MS in Cybersecurity** (Air University, 2025) with a
+specialization in AI-driven cybersecurity.
 
 ---
 
-## `aniqa@nccs:~$ github --stats`
+## Security Domains
+
+```text
+┌──────────────────────────────┬──────────────────────────────┐
+│  SIEM & SOC Engineering      │  Threat Detection            │
+│  Threat Intelligence         │  Threat Hunting              │
+│  Security Automation (SOAR)  │  DLP / PII Detection         │
+│  Network Security & Forensics│  AI / ML for Security        │
+│  Cloud-Native Security       │  Penetration Testing (VAPT)  │
+│  Detection Engineering       │  Security Research           │
+└──────────────────────────────┴──────────────────────────────┘
+```
+
+---
+
+## Technical Arsenal
+
+**SIEM & Detection**
+`Wazuh` · `ElasticStack (ELK)` · `Splunk` · `Snort IDS/IPS` · `Sysmon` · `Packetbeat`
+
+**Threat Intelligence**
+`MISP` · `Yeti` · `VirusTotal` · `Maltego` · `Shodan` · `OSINT`
+
+**Network Security & Forensics**
+`Wireshark` · `tShark` · `tcpdump`
+
+**Vulnerability Assessment & VAPT**
+`Nmap` · `Burp Suite` · `Nessus` · `OpenVAS` · `Nikto` · `Acunetix` · `Hydra` · `Cuckoo Sandbox`
+
+**AI / Machine Learning**
+`Transformers` · `BERT` · `RoBERTa` · `TensorFlow` · `PyTorch` · `spaCy` · `SHAP / XAI`
+
+**Programming & Automation**
+`Python` · `Bash` · `JavaScript` · `SQL` · `REST APIs` · `FastAPI`
+
+**Cloud & Orchestration**
+`Docker` · `Kubernetes` · `Linux`
+
+**Security Frameworks & Standards**
+`MITRE ATT&CK` · `NIST CSF` · `ISO 27001 / 27002` · `CIS Critical Security Controls` · `OWASP`
+
+---
+
+## Featured Security Projects
+
+### Enterprise Wazuh SIEM Deployment — Critical Infrastructure
+- **Problem —** Distributed critical-infrastructure environments lacked unified, real-time
+  detection across endpoint, network, and application layers.
+- **Solution —** Architected and deployed an enterprise-scale Wazuh SIEM integrating
+  ElasticStack, Snort IDS/IPS, Sysmon, and Packetbeat across 50+ monitored endpoints,
+  with 150+ custom detection rules and decoders, multi-tenant RBAC, automated agent
+  provisioning, and SOAR-driven response workflows.
+- **Stack —** `Wazuh` · `ElasticStack` · `Snort` · `Sysmon` · `Packetbeat` · `SOAR` · `Python`
+- **Impact —** Unified detection coverage across the environment with MITRE ATT&CK
+  mapping and automated incident-response playbooks.
+
+### AI-Powered Data Loss Prevention *(Active)*
+- **Problem —** Traditional regex-based DLP misses context, generating high false-negative
+  rates on modern log streams (JSON, syslog, CEF).
+- **Solution —** Developing a transformer-based sensitive-data classification and PII
+  detection engine using fine-tuned BERT and RoBERTa, integrated into SIEM log-processing
+  pipelines and tuned for low-latency inference.
+- **Stack —** `BERT` · `RoBERTa` · `Transformers` · `PyTorch` · `Python` · `FastAPI`
+- **Status —** In active development · targeting production integration with the SIEM layer.
+
+### Cloud-Native SIEM Infrastructure *(In Progress)*
+- **Problem —** Static SIEM deployments cannot elastically scale with unpredictable
+  event volumes or infrastructure growth.
+- **Solution —** Designing a containerized Wazuh deployment on Kubernetes with
+  auto-scaling detection workloads, Terraform-based IaC provisioning, and integrated
+  observability tooling.
+- **Stack —** `Wazuh` · `Docker` · `Kubernetes` · `Terraform`
+- **Target —** High-availability, distributed security monitoring architecture.
+
+### Threat Intelligence Automation Pipeline
+- **Problem —** Analysts spend disproportionate time triaging and correlating high-volume
+  IOC feeds by hand.
+- **Solution —** Building an automated pipeline for IOC enrichment and correlation across
+  MISP, VirusTotal, and multiple external threat-intel feeds — with deduplication and
+  priority scoring for triage.
+- **Stack —** `MISP` · `VirusTotal` · `Python` · `REST APIs`
+- **Impact —** Reduces analyst overhead in threat-intel correlation workflows.
+
+### End-to-End Penetration Testing Engagements
+- **Problem —** Client environments require full-scope assurance across network, web,
+  and cloud attack surface.
+- **Solution —** Delivered comprehensive VAPT engagements — reconnaissance, active
+  exploitation, privilege escalation, and post-exploitation — with CVSS-rated reporting
+  and remediation guidance.
+- **Stack —** `Nmap` · `Burp Suite` · `Nessus` · `OpenVAS` · `Nikto` · `Shodan`
+- **Impact —** Client-facing engagement lifecycle from scoping through remediation review.
+
+---
+
+## Security Architecture I Work With
+
+Representative view of the detection & response stack I engineer against — not a single deployed system.
+
+```mermaid
+flowchart TD
+    A[Log Sources<br/>Endpoints · Network · Cloud · Apps] --> B[Wazuh SIEM<br/>+ ElasticStack]
+    B --> C[Threat Intel Enrichment<br/>MISP · VirusTotal · OSINT]
+    B --> D[AI / ML Analytics<br/>Transformers · UEBA · DLP]
+    C --> E[Correlation Engine]
+    D --> E
+    E --> F[Detection<br/>MITRE ATT&CK Mapped]
+    F --> G[SOAR / Automated Response]
+    F --> H[Threat Hunting & IR]
+
+    classDef src fill:#0D1117,stroke:#30363D,color:#C9D1D9;
+    classDef core fill:#161B22,stroke:#1F6FEB,color:#58A6FF;
+    classDef out fill:#0D1117,stroke:#2EA043,color:#3FB950;
+    class A src;
+    class B,C,D,E core;
+    class F,G,H out;
+```
+
+---
+
+## Research & Publications
+
+> All manuscripts below are **submitted** or **in preparation** — none are published in a
+> peer-reviewed venue at this time.
+
+**Submitted (under review)**
+- Ayub, A. (2026). *A Transformers-based Ensemble Framework for Context-Aware PII
+  Detection in Modern SIEM Systems.* — Manuscript submitted for publication.
+- Ayub, A. (2026). *Anti-Religion Hate Speech Detection Framework Using Machine Learning
+  and Explainable Artificial Intelligence.* — Manuscript submitted for publication.
+
+**In Preparation**
+- Ayub, A. (2026). *Enhancement of SIEM Using AI-based Correlation.* — Manuscript in preparation.
+
+**Research Interests**
+
+`AI-driven Cybersecurity` · `Adversarial / Robust Machine Learning` · `PII Detection` ·
+`Data Loss Prevention` · `SIEM Intelligence` · `Threat Detection` · `Threat Intelligence` ·
+`Security Analytics` · `Explainable AI`
+
+---
+
+## Security Engineering Capabilities
+
+```text
+┌──────────────────────────────────────────────┐
+│  SECURITY ENGINEERING CAPABILITIES           │
+├──────────────────────────────────────────────┤
+│  Detection Engineering                       │
+│  SIEM Architecture & Deployment              │
+│  Log Enrichment & Normalization              │
+│  Threat Intelligence Integration             │
+│  Security Automation & SOAR Playbooks        │
+│  Threat Hunting (MITRE ATT&CK mapped)        │
+│  DLP / PII Detection                         │
+│  AI-driven Security Analytics                │
+│  Incident Response                           │
+│  Network Forensics                           │
+│  Vulnerability Assessment & VAPT             │
+│  Cloud-Native / Containerized Deployments    │
+└──────────────────────────────────────────────┘
+```
+
+---
+
+## Security Frameworks
+
+`MITRE ATT&CK` · `NIST Cybersecurity Framework` · `ISO 27001 / 27002` · `CIS Critical Security Controls` · `OWASP`
+
+---
+
+## Certifications
+
+**Completed**
+| # | Certification | Issuer |
+|---|---------------|--------|
+| 1 | PM Kamyaab Jawan Program in Cybersecurity — **Grade A+** | NAVTTC (2022) |
+| 2 | Ethical Hacking Essentials (EHE) | EC-Council (2023) |
+
+**In Progress**
+| # | Certification | Issuer |
+|---|---------------|--------|
+| 1 | Certified in Cybersecurity (CC) | ISC2 |
+| 2 | Certified Ethical Hacker (CEH) | EC-Council |
+| 3 | CompTIA Security+ | CompTIA |
+
+---
+
+## Achievements
+
+- **Presidential Award Ceremony — Aiwan-e-Sadr, Islamabad.** Invited in recognition of
+  securing the top position in the batch upon completion of the PM Kamyaab Jawan Program
+  in Cybersecurity.
+- **Certificate of Appreciation — Air University Cyber Security Society (AUCSS)**
+  for contribution and collaboration with the society team.
+- **Certificate of Appreciation — Host, PCSC Capture the Flag (CTF) Hackathon 2025.**
+- **Certificate of Participation — AU Expo 2025** for demonstrating an academic research
+  project to attendees, faculty, and industry representatives.
+
+---
+
+## Professional Experience
+
+**Research Associate — SIEM Engineering & Threat Detection**
+*National Centre for Cyber Security (NCCS), NASTP*
+`Feb 2024 — Present`
+
+- Designed and deployed an enterprise-scale **Wazuh SIEM** integrating ElasticStack,
+  Snort IDS/IPS, Sysmon, and Packetbeat across 50+ monitored endpoints.
+- Engineered a **UEBA** analytics layer and a multi-tenant **RBAC** governance system
+  with automated agent provisioning and credential rotation.
+- Implemented **SOAR** integration with automated incident-response workflows and
+  playbooks for real-time remediation.
+- Developed 150+ custom **Wazuh decoders and detection rules** tailored to the
+  organizational threat landscape.
+- Built **log enrichment pipelines** with GeoIP, asset context, and threat-intel indicators
+  to improve detection fidelity and reduce triage time.
+- Integrated **transformer-based ML models** into the detection layer for anomaly detection
+  and context-aware event analysis.
+- Developed **DLP** capabilities within the SIEM framework using AI-driven sensitive-data
+  classification and PII detection.
+- Led **threat hunting** operations with comprehensive **MITRE ATT&CK** mapping across
+  reconnaissance, initial access, persistence, privilege escalation, defense evasion,
+  credential access, discovery, lateral movement, collection, and exfiltration.
+- Designed **cloud-native SIEM** infrastructure using Docker and Kubernetes for scalable,
+  high-availability detection.
+- Delivered technical briefings and executive presentations to C-level stakeholders and
+  critical-infrastructure clients.
+
+---
+
+## Currently Working On
+
+```text
+[+] AI-powered PII detection (transformer ensemble)
+[+] Intelligent SIEM correlation (AI-based)
+[+] Threat intelligence automation pipeline
+[+] Cloud-native SIEM architecture on Kubernetes
+[+] Security automation & SOAR playbooks
+[+] Threat detection & AI-security research
+```
+
+---
+
+## GitHub Project Navigation
+
+```text
+SECURITY LAB
+│
+├── SIEM & Detection Engineering
+├── Threat Intelligence Automation
+├── DLP / PII Detection  (AI-driven)
+├── AI Security Research
+├── Network Security & Forensics
+├── Penetration Testing (VAPT)
+└── Security Automation
+```
+
+Explore pinned repositories on the profile for hands-on work across these areas.
+
+---
+
+## Connect
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ainin123&show_icons=true&hide_border=true&title_color=00FFFF&icon_color=00FF41&text_color=FFFFFF&bg_color=0a0e27)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ainin123&layout=compact&hide_border=true&title_color=00FFFF&text_color=FFFFFF&bg_color=0a0e27)
-
-![Profile Views](https://komarev.com/ghpvc/?username=ainin123&label=Profile+Views&color=00FFFF&style=for-the-badge&labelColor=0a0e27)
-
-</div>
-
----
-
-<div align="center">
-
-### `aniqa@nccs:~$ echo "Let's build something secure."█`
-
-**📫 Reach me:** [Portfolio](https://cybersecurity-portfolio-blue.vercel.app/) · [LinkedIn](https://linkedin.com/in/aniqa-ayub) · [Email](mailto:aniqaayub0fficial@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-View-1F6FEB?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117)](https://cybersecurity-portfolio-blue.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117)](https://www.linkedin.com/in/aniqa-ayub-cybersecurity-researcher/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-30363D?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117)](https://github.com/ainin123)
+[![Email](https://img.shields.io/badge/Email-Contact-4B4B4B?style=for-the-badge&logo=protonmail&logoColor=white&labelColor=0D1117)](mailto:aniqaayub0fficial@gmail.com)
 
 *Member — TryHackMe · Women in CyberSecurity (WiCyS)*
 
