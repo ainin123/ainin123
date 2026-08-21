@@ -35,10 +35,10 @@ I am a Research Associate at the **National Centre for Cyber Security (NCCS), NA
 I design and deploy enterprise-scale SIEM and threat-detection systems for critical
 infrastructure. My work spans **Wazuh-based SIEM engineering, UEBA, SOAR-driven response,
 threat intelligence integration, DLP / PII detection, and threat hunting** aligned to
-MITRE ATT&CK — augmented by transformer-based machine learning for context-aware detection.
+MITRE ATT&CK, augmented by transformer-based machine learning for context-aware detection.
 
 Alongside engineering, I conduct research on **AI-driven cybersecurity**, including
-transformer ensembles for PII detection, explainable AI for content-safety, and AI-based
+transformer ensembles for PII detection, explainable AI for content safety, and AI-based
 SIEM correlation. I hold an **MS in Cybersecurity** (Air University, 2025) with a
 specialization in AI-driven cybersecurity.
 
@@ -89,58 +89,58 @@ specialization in AI-driven cybersecurity.
 
 ## Featured Security Projects
 
-### Enterprise Wazuh SIEM Deployment — Critical Infrastructure
-- **Problem —** Distributed critical-infrastructure environments lacked unified, real-time
+### Enterprise Wazuh SIEM Deployment for Critical Infrastructure
+- **Problem:** Distributed critical infrastructure environments lacked unified, real-time
   detection across endpoint, network, and application layers.
-- **Solution —** Architected and deployed an enterprise-scale Wazuh SIEM integrating
+- **Solution:** Architected and deployed an enterprise-scale Wazuh SIEM integrating
   ElasticStack, Snort IDS/IPS, Sysmon, and Packetbeat across 50+ monitored endpoints,
   with 150+ custom detection rules and decoders, multi-tenant RBAC, automated agent
   provisioning, and SOAR-driven response workflows.
-- **Stack —** `Wazuh` · `ElasticStack` · `Snort` · `Sysmon` · `Packetbeat` · `SOAR` · `Python`
-- **Impact —** Unified detection coverage across the environment with MITRE ATT&CK
+- **Stack:** `Wazuh` · `ElasticStack` · `Snort` · `Sysmon` · `Packetbeat` · `SOAR` · `Python`
+- **Impact:** Unified detection coverage across the environment with MITRE ATT&CK
   mapping and automated incident-response playbooks.
 
 ### AI-Powered Data Loss Prevention *(Active)*
-- **Problem —** Traditional regex-based DLP misses context, generating high false-negative
+- **Problem:** Traditional regex-based DLP misses context, generating high false-negative
   rates on modern log streams (JSON, syslog, CEF).
-- **Solution —** Developing a transformer-based sensitive-data classification and PII
+- **Solution:** Developing a transformer-based sensitive data classification and PII
   detection engine using fine-tuned BERT and RoBERTa, integrated into SIEM log-processing
   pipelines and tuned for low-latency inference.
-- **Stack —** `BERT` · `RoBERTa` · `Transformers` · `PyTorch` · `Python` · `FastAPI`
-- **Status —** In active development · targeting production integration with the SIEM layer.
+- **Stack:** `BERT` · `RoBERTa` · `Transformers` · `PyTorch` · `Python` · `FastAPI`
+- **Status:** In active development, targeting production integration with the SIEM layer.
 
 ### Cloud-Native SIEM Infrastructure *(In Progress)*
-- **Problem —** Static SIEM deployments cannot elastically scale with unpredictable
+- **Problem:** Static SIEM deployments cannot elastically scale with unpredictable
   event volumes or infrastructure growth.
-- **Solution —** Designing a containerized Wazuh deployment on Kubernetes with
+- **Solution:** Designing a containerized Wazuh deployment on Kubernetes with
   auto-scaling detection workloads, Terraform-based IaC provisioning, and integrated
   observability tooling.
-- **Stack —** `Wazuh` · `Docker` · `Kubernetes` · `Terraform`
-- **Target —** High-availability, distributed security monitoring architecture.
+- **Stack:** `Wazuh` · `Docker` · `Kubernetes` · `Terraform`
+- **Target:** High-availability, distributed security monitoring architecture.
 
 ### Threat Intelligence Automation Pipeline
-- **Problem —** Analysts spend disproportionate time triaging and correlating high-volume
+- **Problem:** Analysts spend disproportionate time triaging and correlating high-volume
   IOC feeds by hand.
-- **Solution —** Building an automated pipeline for IOC enrichment and correlation across
-  MISP, VirusTotal, and multiple external threat-intel feeds — with deduplication and
+- **Solution:** Building an automated pipeline for IOC enrichment and correlation across
+  MISP, VirusTotal, and multiple external threat-intel feeds, with deduplication and
   priority scoring for triage.
-- **Stack —** `MISP` · `VirusTotal` · `Python` · `REST APIs`
-- **Impact —** Reduces analyst overhead in threat-intel correlation workflows.
+- **Stack:** `MISP` · `VirusTotal` · `Python` · `REST APIs`
+- **Impact:** Reduces analyst overhead in threat-intel correlation workflows.
 
 ### End-to-End Penetration Testing Engagements
-- **Problem —** Client environments require full-scope assurance across network, web,
+- **Problem:** Client environments require full-scope assurance across network, web,
   and cloud attack surface.
-- **Solution —** Delivered comprehensive VAPT engagements — reconnaissance, active
-  exploitation, privilege escalation, and post-exploitation — with CVSS-rated reporting
+- **Solution:** Delivered comprehensive VAPT engagements covering reconnaissance, active
+  exploitation, privilege escalation, and post-exploitation, with CVSS-rated reporting
   and remediation guidance.
-- **Stack —** `Nmap` · `Burp Suite` · `Nessus` · `OpenVAS` · `Nikto` · `Shodan`
-- **Impact —** Client-facing engagement lifecycle from scoping through remediation review.
+- **Stack:** `Nmap` · `Burp Suite` · `Nessus` · `OpenVAS` · `Nikto` · `Shodan`
+- **Impact:** Client-facing engagement lifecycle from scoping through remediation review.
 
 ---
 
 ## Security Architecture I Work With
 
-Representative view of the detection & response stack I engineer against — not a single deployed system.
+Representative view of the detection and response stack I engineer against. This is not a single deployed system.
 
 ```mermaid
 flowchart TD
@@ -165,17 +165,17 @@ flowchart TD
 
 ## Research & Publications
 
-> All manuscripts below are **submitted** or **in preparation** — none are published in a
+> All manuscripts below are **submitted** or **in preparation**. None are published in a
 > peer-reviewed venue at this time.
 
 **Submitted (under review)**
 - Ayub, A. (2026). *A Transformers-based Ensemble Framework for Context-Aware PII
-  Detection in Modern SIEM Systems.* — Manuscript submitted for publication.
+  Detection in Modern SIEM Systems.* Manuscript submitted for publication.
 - Ayub, A. (2026). *Anti-Religion Hate Speech Detection Framework Using Machine Learning
-  and Explainable Artificial Intelligence.* — Manuscript submitted for publication.
+  and Explainable Artificial Intelligence.* Manuscript submitted for publication.
 
 **In Preparation**
-- Ayub, A. (2026). *Enhancement of SIEM Using AI-based Correlation.* — Manuscript in preparation.
+- Ayub, A. (2026). *Enhancement of SIEM Using AI-based Correlation.* Manuscript in preparation.
 
 **Research Interests**
 
@@ -219,7 +219,7 @@ flowchart TD
 **Completed**
 | # | Certification | Issuer |
 |---|---------------|--------|
-| 1 | PM Kamyaab Jawan Program in Cybersecurity — **Grade A+** | NAVTTC (2022) |
+| 1 | PM Kamyaab Jawan Program in Cybersecurity, **Grade A+** | NAVTTC (2022) |
 | 2 | Ethical Hacking Essentials (EHE) | EC-Council (2023) |
 
 **In Progress**
@@ -233,22 +233,22 @@ flowchart TD
 
 ## Achievements
 
-- **Presidential Award Ceremony — Aiwan-e-Sadr, Islamabad.** Invited in recognition of
+- **Presidential Award Ceremony, Aiwan-e-Sadr, Islamabad.** Invited in recognition of
   securing the top position in the batch upon completion of the PM Kamyaab Jawan Program
   in Cybersecurity.
-- **Certificate of Appreciation — Air University Cyber Security Society (AUCSS)**
+- **Certificate of Appreciation, Air University Cyber Security Society (AUCSS)**
   for contribution and collaboration with the society team.
-- **Certificate of Appreciation — Host, PCSC Capture the Flag (CTF) Hackathon 2025.**
-- **Certificate of Participation — AU Expo 2025** for demonstrating an academic research
+- **Certificate of Appreciation** as Host at the PCSC Capture the Flag (CTF) Hackathon 2025.
+- **Certificate of Participation, AU Expo 2025** for demonstrating an academic research
   project to attendees, faculty, and industry representatives.
 
 ---
 
 ## Professional Experience
 
-**Research Associate — SIEM Engineering & Threat Detection**
+**Research Associate, SIEM Engineering & Threat Detection**
 *National Centre for Cyber Security (NCCS), NASTP*
-`Feb 2024 — Present`
+`Feb 2024 to Present`
 
 - Designed and deployed an enterprise-scale **Wazuh SIEM** integrating ElasticStack,
   Snort IDS/IPS, Sysmon, and Packetbeat across 50+ monitored endpoints.
@@ -262,7 +262,7 @@ flowchart TD
   to improve detection fidelity and reduce triage time.
 - Integrated **transformer-based ML models** into the detection layer for anomaly detection
   and context-aware event analysis.
-- Developed **DLP** capabilities within the SIEM framework using AI-driven sensitive-data
+- Developed **DLP** capabilities within the SIEM framework using AI-driven sensitive data
   classification and PII detection.
 - Led **threat hunting** operations with comprehensive **MITRE ATT&CK** mapping across
   reconnaissance, initial access, persistence, privilege escalation, defense evasion,
@@ -270,7 +270,7 @@ flowchart TD
 - Designed **cloud-native SIEM** infrastructure using Docker and Kubernetes for scalable,
   high-availability detection.
 - Delivered technical briefings and executive presentations to C-level stakeholders and
-  critical-infrastructure clients.
+  critical infrastructure clients.
 
 ---
 
@@ -314,6 +314,6 @@ Explore pinned repositories on the profile for hands-on work across these areas.
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-30363D?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117)](https://github.com/ainin123)
 [![Email](https://img.shields.io/badge/Email-Contact-4B4B4B?style=for-the-badge&logo=protonmail&logoColor=white&labelColor=0D1117)](mailto:aniqaayub0fficial@gmail.com)
 
-*Member — TryHackMe · Women in CyberSecurity (WiCyS)*
+*Member: TryHackMe · Women in CyberSecurity (WiCyS)*
 
 </div>
