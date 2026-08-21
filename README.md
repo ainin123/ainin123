@@ -89,52 +89,60 @@ specialization in AI-driven cybersecurity.
 
 ## Featured Security Projects
 
-### Enterprise Wazuh SIEM Deployment for Critical Infrastructure
-- **Problem:** Distributed critical infrastructure environments lacked unified, real-time
-  detection across endpoint, network, and application layers.
-- **Solution:** Architected and deployed an enterprise-scale Wazuh SIEM integrating
-  ElasticStack, Snort IDS/IPS, Sysmon, and Packetbeat across 50+ monitored endpoints,
-  with 150+ custom detection rules and decoders, multi-tenant RBAC, automated agent
-  provisioning, and SOAR-driven response workflows.
-- **Stack:** `Wazuh` · `ElasticStack` · `Snort` · `Sysmon` · `Packetbeat` · `SOAR` · `Python`
-- **Impact:** Unified detection coverage across the environment with MITRE ATT&CK
-  mapping and automated incident-response playbooks.
+### SIEM–Threat Intelligence Platform Integration for Automated Log Enrichment
+- **Problem:** Raw security events from endpoints, servers, network devices, and cloud
+  services lack the contextual metadata analysts need for fast triage and response.
+- **Solution:** Architected an integration where the SIEM ingests logs, forwards relevant
+  indicators (IPs, domains, file hashes, URLs, emails) to a Threat Intelligence Platform,
+  and receives enrichment (reputation scores, threat type, first/last seen, geolocation,
+  related campaigns) back into correlation, dashboards, and alerting.
+- **Flow:** `Collect  →  Enrich  →  Correlate  →  Alert  →  Respond`
+- **Stack:** `SIEM` · `Threat Intelligence Platform (TIP)` · `Open-Source & Commercial Feeds` · `ISACs` · `Malware Repositories`
+- **Impact:** Faster incident detection, richer alert context, and reduced analyst triage time.
 
-### AI-Powered Data Loss Prevention *(Active)*
-- **Problem:** Traditional regex-based DLP misses context, generating high false-negative
-  rates on modern log streams (JSON, syslog, CEF).
-- **Solution:** Developing a transformer-based sensitive data classification and PII
-  detection engine using fine-tuned BERT and RoBERTa, integrated into SIEM log-processing
-  pipelines and tuned for low-latency inference.
-- **Stack:** `BERT` · `RoBERTa` · `Transformers` · `PyTorch` · `Python` · `FastAPI`
-- **Status:** In active development, targeting production integration with the SIEM layer.
+### Integrated ML-Based PII Leakage Detection with SIEM
+- **Problem:** Sensitive PII embedded in unstructured PDF documents evades traditional DLP
+  controls and remains a common source of data leakage.
+- **Solution:** Designed and deployed an automated ML system that integrates with the SIEM
+  to detect and alert on PII inside PDF files in real time. A spaCy NLP model runs on a
+  Linux-based agent, scans documents via PyMuPDF (fitz), and is orchestrated through
+  File Integrity Monitoring (FIM) pathways with custom JSON log extraction that raises
+  Level 10 SIEM alerts on detection.
+- **Evaluation:** End-to-end evaluation script using scikit-learn and Pandas computes
+  multi-label Precision, Recall, and F1 against ground-truth data for continuous accuracy
+  monitoring.
+- **Optimization:** Logs events only when PII is detected, significantly lowering alert
+  fatigue and storage overhead.
+- **Stack:** `spaCy` · `PyMuPDF (fitz)` · `scikit-learn` · `Pandas` · `Python` · `Linux` · `SIEM` · `FIM`
+- **Impact:** Real-time, context-aware DLP for unstructured documents with a measurable
+  accuracy feedback loop.
 
-### Cloud-Native SIEM Infrastructure *(In Progress)*
-- **Problem:** Static SIEM deployments cannot elastically scale with unpredictable
-  event volumes or infrastructure growth.
-- **Solution:** Designing a containerized Wazuh deployment on Kubernetes with
-  auto-scaling detection workloads, Terraform-based IaC provisioning, and integrated
-  observability tooling.
-- **Stack:** `Wazuh` · `Docker` · `Kubernetes` · `Terraform`
-- **Target:** High-availability, distributed security monitoring architecture.
+### SIEM–SOAR Integration for Automated Incident Response
+- **Problem:** Detection, investigation, and response are often handled as separate
+  processes, slowing time-to-containment.
+- **Solution:** Integrated a SIEM with a SOAR platform to create a feedback-driven
+  security workflow. The SIEM continuously ingests events from endpoints, servers,
+  network devices, applications, and cloud environments; when suspicious activity is
+  detected it forwards the alert to SOAR, which runs automated playbooks to investigate,
+  enrich, prioritize, and respond, with analyst approval where required.
+- **Playbook use cases:** threat-intelligence lookups, indicator analysis, endpoint
+  containment, account protection, notifications, and escalation.
+- **Flow:** `Data Sources  →  SIEM  →  Alerts  →  SOAR  →  Investigation & Enrichment  →  Automated Response  →  Incident Closure`
+- **Stack:** `SIEM` · `SOAR` · `Automated Playbooks`
+- **Impact:** Connects detection, investigation, response, and monitoring into one
+  continuous workflow.
 
-### Threat Intelligence Automation Pipeline
-- **Problem:** Analysts spend disproportionate time triaging and correlating high-volume
-  IOC feeds by hand.
-- **Solution:** Building an automated pipeline for IOC enrichment and correlation across
-  MISP, VirusTotal, and multiple external threat-intel feeds, with deduplication and
-  priority scoring for triage.
-- **Stack:** `MISP` · `VirusTotal` · `Python` · `REST APIs`
-- **Impact:** Reduces analyst overhead in threat-intel correlation workflows.
-
-### End-to-End Penetration Testing Engagements
-- **Problem:** Client environments require full-scope assurance across network, web,
-  and cloud attack surface.
-- **Solution:** Delivered comprehensive VAPT engagements covering reconnaissance, active
-  exploitation, privilege escalation, and post-exploitation, with CVSS-rated reporting
-  and remediation guidance.
-- **Stack:** `Nmap` · `Burp Suite` · `Nessus` · `OpenVAS` · `Nikto` · `Shodan`
-- **Impact:** Client-facing engagement lifecycle from scoping through remediation review.
+### Blackbox Penetration Testing of a Web Application *(Air University)*
+- **Scope:** Comprehensive, non-interactive external reconnaissance and vulnerability
+  assessment of a target website, without direct interaction with the target.
+- **Techniques:** Subdomain and portal enumeration, web-technology fingerprinting, network
+  range and subnet mapping, OSINT email and social-media correlation, breach-data
+  investigation, company organogram construction, LinkedIn workforce enumeration,
+  confidential-document discovery, endpoint / operating-system / installed-software
+  fingerprinting, printer and open-port identification, and passive vulnerability
+  assessment.
+- **Deliverable:** A comprehensive analysis report documenting all findings.
+- **Stack:** `OSINT` · `Google Hacking` · `Passive Reconnaissance` · `Web Application Security Assessment`
 
 ---
 
